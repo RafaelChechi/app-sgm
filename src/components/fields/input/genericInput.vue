@@ -1,0 +1,18 @@
+<template>
+  <CInput
+    v-if="format"
+    v-mask="mask"
+    :label="label"
+    :value="value"
+    :type="type"
+    @input="emitInput"
+  />
+  <CInput
+    v-else
+    :label="label"
+    :value="value"
+    :type="type"
+    :readonly="readonly"
+    @input="emitInput"
+  />
+</template>

@@ -1,0 +1,44 @@
+// Here you can add other styles
+
+.h-sidebar-brand-full {
+    img{
+        max-width: 15%;
+    }
+
+    span {
+        margin-left: 5px;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    flex-direction: row;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.h-header-brand {
+    max-width: 50%;
+    .h-sidebar-brand-mobile {
+        img{
+            max-width: 20%;
+        }
+
+        span {
+            margin-left: 5px;
+        }
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8em;
+        flex-direction: row;
+        font-weight: bold;
+    }
+}
+
+.btn-sm, .btn-group-sm > .btn {
+    padding: 0.50rem 0.5rem;
+    font-size: 1rem;
+}

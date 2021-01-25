@@ -1,0 +1,55 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+// Plugin toastr
+@import "toastr";
+
+.card-header:not(.content-center) > .c-icon:first-child {
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+  vertical-align: top;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.h-sidebar-brand-full {
+  max-width: 50%;
+}
+
+.login-header {
+  background: #f9d215;
+  font-weight: bold;
+}
+
+.btn-head {
+  background: #f9d215;
+  width: 100%;
+}
+
+.loading {
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background: #8e8e8e57;
+}
+
+
+@media (min-width: 768px) {
+  .login-card {
+      width: 500px;
+  }
+}
+
+

@@ -1,0 +1,9 @@
+<template>
+  <CSelect
+    :label="label"
+    :options="selectOptions"
+    :value="value"
+    placeholder="Selecione"
+    @input="emitInput"
+  />
+</template>
